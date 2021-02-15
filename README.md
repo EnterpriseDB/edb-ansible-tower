@@ -47,7 +47,9 @@ all:
 
 **Type** in the **SCM URL** **TextBox**:
 
-**'URL for your repository'**
+```
+**http://<repository>**
+```
 
 **Check** **Clean** **CheckBox** from the **SCM UPDATE OPTIONS**
 
