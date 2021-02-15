@@ -1,5 +1,58 @@
 # Ansible Tower Configuration for integration with &quot;edb-ansible&quot;
 
+## Create a Project to retrieve hosts inventory file
+
+**Create** a **Project** that connects to the a github repository that contains your host file in a format such as:
+
+```
+all:
+  children:
+    pemserver:
+      hosts:
+        pemserver1:
+          ansible_host: xxx.xxx.xxx.xxx
+          private_ip: xxx.xxx.xxx.xxx
+    primary:
+      hosts:
+        primary1:
+          ansible_host: xxx.xxx.xxx.xxx
+          private_ip: xxx.xxx.xxx.xxx
+          pem_agent: true
+          pem_server_private_ip: xxx.xxx.xxx.xxx
+    standby:
+      hosts:
+        standby1:
+          ansible_host: xxx.xxx.xxx.xxx
+          private_ip: xxx.xxx.xxx.xxx
+          upstream_node_private_ip: xxx.xxx.xxx.xxx
+          replication_type: synchronous
+          pem_agent: true
+          pem_server_private_ip: xxx.xxx.xxx.xxx
+        standby2:
+          ansible_host: xxx.xxx.xxx.xxx
+          private_ip: xxx.xxx.xxx.xxx
+          upstream_node_private_ip: xxx.xxx.xxx.xxx
+          replication_type: asynchronous
+          pem_agent: true
+          pem_server_private_ip: xxx.xxx.xxx.xxx
+```
+
+**Click** **Projects** on the left hand navigation
+
+**Click** the **Green Plus Sign** on the right hand side of the browser
+
+**Enter** the **name** of the project, for example: &quot;EDB-<cloud>-Inventory&quot;
+
+**Select** **Git** from the **SCM TYPE** **Dropdown**
+
+**Type** in the **SCM URL** **TextBox**:
+
+**'URL for your repository'**
+
+**Check** **Clean** **CheckBox** from the **SCM UPDATE OPTIONS**
+
+**Click** the **Green SAVE** **Button**
+
 ## Create a Project to download locally **edb\_devops.edb\_postgres** ansible galaxy collection
 
 **Create** a **Project** that connects to the **edb-ansible GitHub Repository**
