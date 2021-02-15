@@ -4,7 +4,7 @@
 
 **Create** a **Project** that connects to the **edb-ansible GitHub Repository**
 
-**Click** ** Projects** on the left hand navigation
+**Click** **Projects** on the left hand navigation
 
 **Click** the **Green Plus Sign** on the right hand side of the browser
 
@@ -186,11 +186,11 @@ mkdir edb-ansible
 
 cd edb-ansible
 
-cp -r ../\_\&lt;directory\_name\&gt;/collections/ .
+cp -r ../\_directory\_name/collections/ .
 
-cp -r ../\_\&lt;directory\_name\&gt;/plugins/ .
+cp -r ../\_directory\_name/plugins/ .
 
-cp -r ../\_\&lt;directory\_name\&gt;/playbook.yml .
+cp -r ../\_directory\_name/playbook.yml .
 
 ### Create the Ansible Tower **edb-ansible** Ansible Project
 
