@@ -4,25 +4,25 @@
 
 **Create** a **Project** that connects to the **edb-ansible GitHub Repository**
 
-**Click**** Projects** on the left hand navigation
+**Click** ** Projects** on the left hand navigation
 
 **Click** the **Green Plus Sign** on the right hand side of the browser
 
 **Enter** the **name** of the project, for example: &quot;EDB-ANSIBLE&quot;
 
-**Select**** Git **from the** SCM TYPE ****Dropdown**
+**Select** ** Git **from the** SCM TYPE ****Dropdown**
 
 **Type** in the **SCM URL**** TextBox**:
 
 https://github.com/EnterpriseDB/edb-ansible.git
 
-**Check**** Clean ****CheckBox** from the **SCM UPDATE OPTIONS**
+**Check** ** Clean ****CheckBox** from the **SCM UPDATE OPTIONS**
 
 **Click** the **Green SAVE**** Button**
 
 ## Download locally the **edb\_devops.edb\_postgres** ansible galaxy collection
 
-**Click**** Projects** on the left hand navigation
+**Click** ** Projects** on the left hand navigation
 
 **Locate** the **EDB-ANSIBLE** project
 
@@ -120,9 +120,9 @@ Under **Resources** -\&gt; **Inventories**
 
 **Select** the **Inventory File** from the **INVENTORY FILE**** Dropdown**
 
-**Check**** OVERWRITE ****CheckBox** from the **UPDATE OPTIONS**
+**Check** ** OVERWRITE ** **CheckBox** from the **UPDATE OPTIONS**
 
-**Check**** UPDATE ON LAUNCH ****CheckBox** from the **UPDATE OPTIONS**
+**Check** ** UPDATE ON LAUNCH ** **CheckBox** from the **UPDATE OPTIONS**
 
 **Click** the **Green SAVE**** Button**
 
@@ -146,19 +146,19 @@ Under **Resources** -\&gt; **Projects**
 
 **Enter** the **name** , for example: &quot;EDB – Ansible - Galaxy&quot;
 
-**Select**** Git **from the** SCM TYPE ****Dropdown**
+**Select** **Git** from the ** SCM TYPE** **Dropdown**
 
-**Type** in the **SCM URL**** TextBox**:
-
-https://github.com/EnterpriseDB/edb-ansible.git
-
-**Type** in the **SCM URL**** TextBox**:
+**Type** in the **SCM URL** ** TextBox**:
 
 https://github.com/EnterpriseDB/edb-ansible.git
 
-**Check**** Clean ****CheckBox** from the **SCM UPDATE OPTIONS**
+**Type** in the **SCM URL** ** TextBox**:
 
-**Click** the **Green SAVE**** Button**
+https://github.com/EnterpriseDB/edb-ansible.git
+
+**Check** ** Clean ** **CheckBox** from the **SCM UPDATE OPTIONS**
+
+**Click** the **Green SAVE** ** Button**
 
 **Click** the **Refresh Button** from the **PROJECTS** Grid
 
@@ -204,11 +204,11 @@ Under **Resources** -\&gt; **Projects**
 
 **Enter** the **name** , for example: &quot;EDB – Ansible&quot;
 
-**Select**** Manual **from the** SCM TYPE ****Dropdown**
+**Select** **Manual** from the **SCM TYPE** **Dropdown**
 
-**Select**** Manual **from the** PLAYBOOK DIRECTORY ****Dropdown**
+**Select** **Manual** from the **PLAYBOOK DIRECTORY** **Dropdown**
 
-**Click** the **Green SAVE**** Button**
+**Click** the **Green SAVE** ** Button**
 
 ## Templates
 
@@ -224,20 +224,20 @@ Under **Resources** -\&gt; **Templates**
 
 **Enter** the **name** , for example: &quot;EDB – Ansible - Template&quot;
 
-**Select**** Run **from the** JOB TYPE ****Dropdown**
+**Select** **Run** from the **JOB TYPE** **Dropdown**
 
-**Select**** Hosts **from the** INVENTORY Dropdown**
+**Select** **Hosts** from the **INVENTORY Dropdown**
 
-**Select**** EDB-ANSIBLE **from the** PROJECT Dropdown**
+**Select** **EDB-ANSIBLE** from the **PROJECT Dropdown**
 
-**Select**** playbook.yml **from the** PLAYBOOK ****Dropdown**
+**Select** **playbook.yml** from the **PLAYBOOK ****Dropdown**
 
-**Select**** \&lt;your cloud credentials\&gt; **from the** CREDENTIALS CheckBox**
+**Select** **\&lt;your cloud credentials\&gt;** from the **CREDENTIALS CheckBox**
 
-**Select**** \&lt;your cloud private key file credentials\&gt; **from the** CREDENTIALS CheckBox**
+**Select** **\&lt;your cloud private key file credentials\&gt;** from the ** CREDENTIALS CheckBox**
 
-**Check**** ENABLE PRIVILEGE ESCALATION **from the** OPTIONS**
+**Check** **ENABLE PRIVILEGE ESCALATION** from the **OPTIONS**
 
-**Click** the **Green SAVE**** Button**
+**Click** the **Green SAVE** **Button**
 
 **Click** the **LAUNCH Button**
