@@ -201,7 +201,7 @@ Verify that the List of Hosts matches the Host List content of the file in the G
 
 ### Create the project to Download locally the **edb\_devops.edb\_postgres** ansible galaxy collection
 
-Within Ansible Tower
+**Within Ansible Tower**
 
 Under **Resources** -> **Projects**
 
@@ -287,7 +287,7 @@ Under **Resources** -> **Projects**
 
 ### Create Template to deploy the Cluster
 
-Within Ansible Tower
+**Within Ansible Tower**
 
 Under **Resources** -> **Templates**
 
