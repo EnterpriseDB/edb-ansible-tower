@@ -20,8 +20,6 @@ https://github.com/EnterpriseDB/edb-ansible.git
 
 **Click** the **Green SAVE** **Button**
 
-A folder located in: **/var/lib/awx/projects** with the '__**project_name**' prefixes will be created
-
 ## Download locally the **edb\_devops.edb\_postgres** ansible galaxy collection
 
 **Click** **Projects** on the left hand navigation
@@ -30,13 +28,15 @@ A folder located in: **/var/lib/awx/projects** with the '__**project_name**' pre
 
 **Click** the **EDB-ANSIBLE** project **Refresh Button**
 
+A folder located in: **/var/lib/awx/projects** with the '__**project_name' prefixes will be created
+
 ## Create Credentials
 
 ### Create Cloud Credentials
 
 Under **Resources** -> **Credentials**
 
-**Click Credentials**
+**Click 'Cloud' and 'Cloud Private' Credentials**
 
 **Click** the **Green Plus Sign** on the right hand side of the browser
 
@@ -44,7 +44,7 @@ Under **Resources** -> **Credentials**
 
 **Select** the matching Cloud from the **Credential** **Type** **Dropdown**
 
-_ **The next steps will vary depending on the Cloud Vendor you are utilizing** _
+**The next steps will vary depending on the Cloud Vendor you are utilizing** _
 
 **Click** the **Green SAVE** **Button**
 
@@ -58,7 +58,7 @@ Under **Resources** -> **Credentials**
 
 **Enter** the **name** of the credential, for example: &quot;GCloud – Private Key&quot;, &quot;AWS – Private Key&quot; or &quot;Azure – Private Key&quot;
 
-**Select** the **Machine** from the **Credential** **Type** **Dropdown**
+**Select** **Machine** from the **Credential** **Type** **Dropdown**
 
 **Enter** the **username** for the credential, for example: &quot;centos&quot;, &quot;root&quot; or &quot;ec2-user&quot;
 
@@ -84,7 +84,7 @@ Under **Resources** -> **Inventories**
 
 **Select** the **CLOUD SOURCE** from the **SOURCE** **Dropdown**
 
-**Click** the **Green SAVE** ** Button**
+**Click** the **Green SAVE** **Button**
 
 **Locate** the **Cloud Inventory** recently created in the **SOURCES Grid**
 
@@ -100,7 +100,7 @@ Verify that the List of Hosts matches the Cloud Virtual Machines in which EPAS/P
 
 The **HOSTS** file should match the format listed in **the Inventory file content** available at: [https://github.com/EnterpriseDB/edb-ansible](https://github.com/EnterpriseDB/edb-ansible)
 
-Within Ansible Tower
+**Within Ansible Tower**
 
 Under **Resources** -> **Inventories**
 
@@ -164,12 +164,15 @@ https://github.com/EnterpriseDB/edb-ansible.git
 
 **Click** the **Refresh Button** from the **PROJECTS** Grid
 
+A folder located in: **/var/lib/awx/projects** with the '__**project_name' prefixes will be created
+
 ### Prepare a local Ansible Tower Ansible Project
 
-**Open** a Terminal Window
+**Open** a **Terminal Window**
 
-**Type** :
+**Type**:
 
+```
 sudo su
 
 cd /var/lib/awx/projects
@@ -178,12 +181,15 @@ mkdir edb-ansible
 
 cd edb-ansible
 
+```
+
 **Locate and notice a directory that contains the name of the project created in the steps above**
 
-Back in the Terminal Window
+**Back** in the **Terminal Window**
 
-**Type** :
+**Type**:
 
+```
 mkdir edb-ansible
 
 cd edb-ansible
@@ -194,9 +200,11 @@ cp -r ../\_**directory\_name**/plugins/ .
 
 cp -r ../\_**directory\_name**/playbook.yml .
 
+```
+
 ### Create the Ansible Tower **edb-ansible** Ansible Project
 
-Within Ansible Tower
+**Within Ansible Tower**
 
 Under **Resources** -> **Projects**
 
