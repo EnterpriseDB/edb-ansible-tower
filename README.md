@@ -186,11 +186,11 @@ mkdir edb-ansible
 
 cd edb-ansible
 
-cp -r ../\_directory\_name/collections/ .
+cp -r ../\_**directory\_name**/collections/ .
 
-cp -r ../\_directory\_name/plugins/ .
+cp -r ../\_**directory\_name**/plugins/ .
 
-cp -r ../\_directory\_name/playbook.yml .
+cp -r ../\_**directory\_name**/playbook.yml .
 
 ### Create the Ansible Tower **edb-ansible** Ansible Project
 
