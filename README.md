@@ -134,7 +134,7 @@ Verify that the List of Hosts matches the Host List content of the file in the G
 
 ## Projects
 
-### Create Download locally the **edb\_devops.edb\_postgres** ansible galaxy collection
+### Create the project to Download locally the **edb\_devops.edb\_postgres** ansible galaxy collection
 
 Within Ansible Tower
 
