@@ -120,9 +120,9 @@ Under **Resources** -> **Inventories**
 
 **Select** the **Inventory File** from the **INVENTORY FILE** **Dropdown**
 
-**Check** ** OVERWRITE ** **CheckBox** from the **UPDATE OPTIONS**
+**Check** **OVERWRITE** **CheckBox** from the **UPDATE OPTIONS**
 
-**Check** ** UPDATE ON LAUNCH ** **CheckBox** from the **UPDATE OPTIONS**
+**Check** **UPDATE ON LAUNCH** **CheckBox** from the **UPDATE OPTIONS**
 
 **Click** the **Green SAVE** **Button**
 
@@ -146,19 +146,19 @@ Under **Resources** -> **Projects**
 
 **Enter** the **name** , for example: &quot;EDB – Ansible - Galaxy&quot;
 
-**Select** **Git** from the ** SCM TYPE** **Dropdown**
+**Select** **Git** from the **SCM TYPE** **Dropdown**
 
-**Type** in the **SCM URL** ** TextBox**:
-
-https://github.com/EnterpriseDB/edb-ansible.git
-
-**Type** in the **SCM URL** ** TextBox**:
+**Type** in the **SCM URL** **TextBox**:
 
 https://github.com/EnterpriseDB/edb-ansible.git
 
-**Check** ** Clean ** **CheckBox** from the **SCM UPDATE OPTIONS**
+**Type** in the **SCM URL** **TextBox**:
 
-**Click** the **Green SAVE** ** Button**
+https://github.com/EnterpriseDB/edb-ansible.git
+
+**Check** **Clean** **CheckBox** from the **SCM UPDATE OPTIONS**
+
+**Click** the **Green SAVE** **Button**
 
 **Click** the **Refresh Button** from the **PROJECTS** Grid
 
@@ -208,7 +208,7 @@ Under **Resources** -> **Projects**
 
 **Select** **Manual** from the **PLAYBOOK DIRECTORY** **Dropdown**
 
-**Click** the **Green SAVE** ** Button**
+**Click** the **Green SAVE** **Button**
 
 ## Templates
 
@@ -232,9 +232,9 @@ Under **Resources** -> **Templates**
 
 **Select** **playbook.yml** from the **PLAYBOOK** **Dropdown**
 
-**Select** **\&lt;your cloud credentials\&gt;** from the **CREDENTIALS CheckBox**
+**Select** **<your cloud credentials>** from the **CREDENTIALS CheckBox**
 
-**Select** **\&lt;your cloud private key file credentials\&gt;** from the ** CREDENTIALS CheckBox**
+**Select** **<your cloud private key file credentials>** from the ** CREDENTIALS CheckBox**
 
 **Check** **ENABLE PRIVILEGE ESCALATION** from the **OPTIONS**
 
