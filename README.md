@@ -44,7 +44,7 @@ Under **Resources** -\&gt; **Credentials**
 
 _ **The next steps will vary depending on the Cloud Vendor you are utilizing** _
 
-**Click** the **Green SAVE** ** Button**
+**Click** the **Green SAVE** **Button**
 
 ### Create Cloud Private Key Credentials
 
