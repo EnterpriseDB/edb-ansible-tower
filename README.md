@@ -1,4 +1,4 @@
-# Ansible Tower Configuration for &quot;edb-ansible&quot; usage
+# Ansible Tower Configuration for integration with &quot;edb-ansible&quot;
 
 ## Create a Project to download locally **edb\_devops.edb\_postgres** ansible galaxy collection
 
@@ -19,6 +19,8 @@ https://github.com/EnterpriseDB/edb-ansible.git
 **Check** **Clean** **CheckBox** from the **SCM UPDATE OPTIONS**
 
 **Click** the **Green SAVE** **Button**
+
+A folder located in: **/var/lib/awx/projects** with the '__**project_name**' prefixes will be created
 
 ## Download locally the **edb\_devops.edb\_postgres** ansible galaxy collection
 
