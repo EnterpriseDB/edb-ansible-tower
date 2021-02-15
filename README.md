@@ -2,7 +2,7 @@
 
 ## Create a Project to download locally **edb\_devops.edb\_postgres** ansible galaxy collection
 
-**Create** a **Project** that retrieves from the **edb-ansible GitHub Repository**
+**Create** a **Project** that connects to the **edb-ansible GitHub Repository**
 
 **Click**** Projects** on the left hand navigation
 
