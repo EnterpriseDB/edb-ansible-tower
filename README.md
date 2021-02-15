@@ -232,11 +232,11 @@ Under **Resources** -> **Templates**
 
 **Select** **playbook.yml** from the **PLAYBOOK** **Dropdown**
 
-**Select** **<your cloud credentials>** from the **CREDENTIALS CheckBox**
+**Select** **'your cloud credentials'** from the **CREDENTIALS CheckBox**
 
-**Select** **<your cloud private key file credentials>** from the ** CREDENTIALS CheckBox**
+**Select** **'your cloud private key file credentials'** from the **CREDENTIALS CheckBox**
 
-**Check** **ENABLE PRIVILEGE ESCALATION** from the **OPTIONS**
+**Check** **ENABLE PRIVILEGE ESCALATION** from the **OPTIONS Checkbox**
 
 **Click** the **Green SAVE** **Button**
 
