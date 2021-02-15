@@ -32,7 +32,7 @@ https://github.com/EnterpriseDB/edb-ansible.git
 
 ### Create Cloud Credentials
 
-Under **Resources** -\&gt; **Credentials**
+Under **Resources** -> **Credentials**
 
 **Click Credentials**
 
@@ -48,7 +48,7 @@ _ **The next steps will vary depending on the Cloud Vendor you are utilizing** _
 
 ### Create Cloud Private Key Credentials
 
-Under **Resources** -\&gt; **Credentials**
+Under **Resources** -> **Credentials**
 
 **Click Credentials**
 
@@ -66,7 +66,7 @@ Under **Resources** -\&gt; **Credentials**
 
 ### Create the Cloud Inventory
 
-Under **Resources** -\&gt; **Inventories**
+Under **Resources** -> **Inventories**
 
 **Click Projects**
 
@@ -100,7 +100,7 @@ The **HOSTS** file should match the format listed in **the Inventory file conten
 
 Within Ansible Tower
 
-Under **Resources** -\&gt; **Inventories**
+Under **Resources** -> **Inventories**
 
 **Click Inventories**
 
@@ -138,7 +138,7 @@ Verify that the List of Hosts matches the Host List content of the file in the G
 
 Within Ansible Tower
 
-Under **Resources** -\&gt; **Projects**
+Under **Resources** -> **Projects**
 
 **Click Projects**
 
@@ -196,7 +196,7 @@ cp -r ../\_\&lt;directory\_name\&gt;/playbook.yml .
 
 Within Ansible Tower
 
-Under **Resources** -\&gt; **Projects**
+Under **Resources** -> **Projects**
 
 **Click Projects**
 
@@ -216,7 +216,7 @@ Under **Resources** -\&gt; **Projects**
 
 Within Ansible Tower
 
-Under **Resources** -\&gt; **Templates**
+Under **Resources** -> **Templates**
 
 **Click Templates**
 
