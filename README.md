@@ -37,11 +37,19 @@ all:
           pem_server_private_ip: xxx.xxx.xxx.xxx
 ```
 
+The repository should also contain:
+* A folder named: **collections**
+* A file named: **requirements.yml** with the content:
+```
+collections:
+  - name: edb_devops.edb_postgres
+```
+
 **Click** **Projects** on the left hand navigation
 
 **Click** the **Green Plus Sign** on the right hand side of the browser
 
-**Enter** the **name** of the project, for example: &quot;EDB-<cloud>-Inventory&quot;
+**Enter** the **name** of the project, for example: &quot;EDB-CLOUD-Inventory&quot;
 
 **Select** **Git** from the **SCM TYPE** **Dropdown**
 
