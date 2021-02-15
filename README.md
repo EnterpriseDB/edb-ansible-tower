@@ -120,7 +120,7 @@ Under **Resources** -> **Inventories**
 
 **Select** the **Project** from the **PROJECT Dropdown**
 
-**Select** the **Inventory File** from the **INVENTORY FILE** **Dropdown**
+**Select** the **Inventory File**, most likely a file named: **'hosts'** from the **INVENTORY FILE** **Dropdown**
 
 **Check** **OVERWRITE** **CheckBox** from the **UPDATE OPTIONS**
 
