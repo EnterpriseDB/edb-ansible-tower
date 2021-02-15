@@ -18,7 +18,7 @@ https://github.com/EnterpriseDB/edb-ansible.git
 
 **Check** **Clean** **CheckBox** from the **SCM UPDATE OPTIONS**
 
-**Click** the **Green SAVE** ** Button**
+**Click** the **Green SAVE** **Button**
 
 ## Download locally the **edb\_devops.edb\_postgres** ansible galaxy collection
 
