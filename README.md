@@ -10,19 +10,19 @@
 
 **Enter** the **name** of the project, for example: &quot;EDB-ANSIBLE&quot;
 
-**Select** ** Git **from the** SCM TYPE ****Dropdown**
+**Select** **Git** from the **SCM TYPE** **Dropdown**
 
-**Type** in the **SCM URL**** TextBox**:
+**Type** in the **SCM URL** **TextBox**:
 
 https://github.com/EnterpriseDB/edb-ansible.git
 
-**Check** ** Clean ****CheckBox** from the **SCM UPDATE OPTIONS**
+**Check** **Clean** **CheckBox** from the **SCM UPDATE OPTIONS**
 
-**Click** the **Green SAVE**** Button**
+**Click** the **Green SAVE** ** Button**
 
 ## Download locally the **edb\_devops.edb\_postgres** ansible galaxy collection
 
-**Click** ** Projects** on the left hand navigation
+**Click** **Projects** on the left hand navigation
 
 **Locate** the **EDB-ANSIBLE** project
 
@@ -40,11 +40,11 @@ Under **Resources** -\&gt; **Credentials**
 
 **Enter** the **name** of the credential, for example: &quot;GCloud&quot;, &quot;AWS&quot; or &quot;Azure&quot;
 
-**Select** the matching Cloud from the **Credential**** Type ****Dropdown**
+**Select** the matching Cloud from the **Credential** **Type** **Dropdown**
 
 _ **The next steps will vary depending on the Cloud Vendor you are utilizing** _
 
-**Click** the **Green SAVE**** Button**
+**Click** the **Green SAVE** ** Button**
 
 ### Create Cloud Private Key Credentials
 
@@ -56,13 +56,13 @@ Under **Resources** -\&gt; **Credentials**
 
 **Enter** the **name** of the credential, for example: &quot;GCloud – Private Key&quot;, &quot;AWS – Private Key&quot; or &quot;Azure – Private Key&quot;
 
-**Select** the **Machine** from the **Credential**** Type ****Dropdown**
+**Select** the **Machine** from the **Credential** **Type** **Dropdown**
 
 **Enter** the **username** for the credential, for example: &quot;centos&quot;, &quot;root&quot; or &quot;ec2-user&quot;
 
 **Add** the **SSH PRIVATE KEY** for the credential by either **clicking** on the **Refresh Button** on the right hand side or **dragging and dropping** the **SSH PRIVATE KEY file** or its contents onto the **TextBox**
 
-**Click** the **Green SAVE**** Button**
+**Click** the **Green SAVE** **Button**
 
 ### Create the Cloud Inventory
 
@@ -72,7 +72,7 @@ Under **Resources** -\&gt; **Inventories**
 
 **Enter** the **name** , for example: &quot;EDB - GCloud&quot;, &quot;EDB - AWS&quot; or &quot;EDB - Azure&quot;
 
-**Click** the **Green SAVE**** Button**
+**Click** the **Green SAVE** **Button**
 
 **Click** the **SOURCES Button** on the top right
 
@@ -80,9 +80,9 @@ Under **Resources** -\&gt; **Inventories**
 
 **Enter** the **name** , for example: &quot;EDB – Gcloud - VMs&quot;, &quot;EDB – AWS - VMs&quot; or &quot;EDB – Azure - VMs&quot;
 
-**Select** the **CLOUD SOURCE** from the **SOURCE**** Dropdown**
+**Select** the **CLOUD SOURCE** from the **SOURCE** **Dropdown**
 
-**Click** the **Green SAVE**** Button**
+**Click** the **Green SAVE** ** Button**
 
 **Locate** the **Cloud Inventory** recently created in the **SOURCES Grid**
 
@@ -106,7 +106,7 @@ Under **Resources** -\&gt; **Inventories**
 
 **Enter** the **name** , for example: &quot;HOSTS&quot;
 
-**Click** the **Green SAVE**** Button**
+**Click** the **Green SAVE** **Button**
 
 **Click** the **SOURCES Button** on the top right
 
@@ -114,17 +114,17 @@ Under **Resources** -\&gt; **Inventories**
 
 **Enter** the **name** , for example: &quot;Source Host File&quot;
 
-**Select** the **Sourced from a Project** from the **SOURCE**** Dropdown**
+**Select** the **Sourced from a Project** from the **SOURCE** **Dropdown**
 
 **Select** the **Project** from the **PROJECT Dropdown**
 
-**Select** the **Inventory File** from the **INVENTORY FILE**** Dropdown**
+**Select** the **Inventory File** from the **INVENTORY FILE** **Dropdown**
 
 **Check** ** OVERWRITE ** **CheckBox** from the **UPDATE OPTIONS**
 
 **Check** ** UPDATE ON LAUNCH ** **CheckBox** from the **UPDATE OPTIONS**
 
-**Click** the **Green SAVE**** Button**
+**Click** the **Green SAVE** **Button**
 
 **Click** the **Refresh Button** from the **SOURCES** Grid
 
@@ -230,7 +230,7 @@ Under **Resources** -\&gt; **Templates**
 
 **Select** **EDB-ANSIBLE** from the **PROJECT Dropdown**
 
-**Select** **playbook.yml** from the **PLAYBOOK ****Dropdown**
+**Select** **playbook.yml** from the **PLAYBOOK** **Dropdown**
 
 **Select** **\&lt;your cloud credentials\&gt;** from the **CREDENTIALS CheckBox**
 
