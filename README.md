@@ -250,6 +250,48 @@ cd edb-ansible
 
 **Back** in the **Terminal Window**
 
+**playbook.yml** should look as shown below:
+
+Playbook content should look like as shown below:
+
+```
+---
+- hosts: all
+  name: Postgres deployment playbook for reference architecture EDB-RA-2
+  become: yes
+  gather_facts: yes
+
+  collections:
+    - edb_devops.edb_postgres
+  pre_tasks:
+    - name: Initialize the user defined variables
+      set_fact:
+        use_hostname: yes
+        disable_logging: false
+        efm_version: 4.1
+  roles:
+    - role: setup_repo
+      when: "'setup_repo' in lookup('edb_devops.edb_postgres.supported_roles', wantlist=True)"
+    - role: install_dbserver
+      when: "'install_dbserver' in lookup('edb_devops.edb_postgres.supported_roles', wantlist=True)"
+    - role: init_dbserver
+      when: "'init_dbserver' in lookup('edb_devops.edb_postgres.supported_roles', wantlist=True)"
+    - role: setup_replication
+      when: "'setup_replication' in lookup('edb_devops.edb_postgres.supported_roles', wantlist=True)"
+    - role: manage_dbserver
+      when: "'init_dbserver' in lookup('edb_devops.edb_postgres.supported_roles', wantlist=True)"
+    - role: setup_efm
+      when: "'setup_efm' in lookup('edb_devops.edb_postgres.supported_roles', wantlist=True)"
+    - role: setup_pemserver
+      when: "'setup_pemserver' in lookup('edb_devops.edb_postgres.supported_roles', wantlist=True)"
+    - role: setup_pemagent
+      when: "'setup_pemagent' in lookup('edb_devops.edb_postgres.supported_roles', wantlist=True)"
+    - role: autotuning
+      when: "'autotuning' in lookup('edb_devops.edb_postgres.supported_roles', wantlist=True)"
+    - role: pot_setup
+      when: group_names | select('search','barmanserver') | list | count < 1
+```
+
 **Type**:
 
 ```
@@ -309,8 +351,22 @@ Under **Resources** -> **Templates**
 
 **Select** **'your cloud private key file credentials'** from the **CREDENTIALS CheckBox**
 
+**EXTRA VARIABLES TextBox** should have the parameters for the playbook as listed below:
+
+```
+---
+pg_version: 12
+pg_type: "EPAS"
+yum_username: "yum_user"
+yum_password: "yum_password"
+```
+
 **Check** **ENABLE PRIVILEGE ESCALATION** from the **OPTIONS Checkbox**
 
 **Click** the **Green SAVE** **Button**
 
 **Click** the **LAUNCH Button**
+
+## Authenticating into the EDB Postgres Advanced Server Cluster
+
+To change the authentication credentials you can reference the blog posting: [Postgres, Passwords and Installers](https://www.enterprisedb.com/blog/postgres-passwords-and-installers#:~:text=Just%20right%2Dclick%20each%20service,account%20on%20the%20EnterpriseDB%20website.)
