@@ -77,7 +77,7 @@ collections:
 
 **Type** in the **SCM URL** **TextBox**:
 
-https://github.com/EnterpriseDB/edb-ansible.git
+https://github.com/EnterpriseDB/edb-ansible-tower
 
 **Check** **Clean** **CheckBox** from the **SCM UPDATE OPTIONS**
 
