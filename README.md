@@ -1,3 +1,9 @@
+---
+title: Ansible Tower Configuration for integration with &quot;edb-ansible&quot;
+output:
+  html_document:
+    number_sections: true
+---
 # Ansible Tower Configuration for integration with &quot;edb-ansible&quot;
 
 ## Create a Project to retrieve hosts inventory file
