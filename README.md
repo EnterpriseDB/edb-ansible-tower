@@ -1,12 +1,6 @@
----
-title: Ansible Tower Configuration for integration with &quot;edb-ansible&quot;
-output:
-  html_document:
-    number_sections: true
----
 # Ansible Tower Configuration for integration with &quot;edb-ansible&quot;
 
-## Create a Project to retrieve hosts inventory file
+1 ## Create a Project to retrieve hosts inventory file
 
 **Create** a **Project** that connects to the a github repository that contains your host file in a format such as:
 
@@ -69,7 +63,7 @@ collections:
 
 **Click** the **Green SAVE** **Button**
 
-## Create a Project to download locally **edb\_devops.edb\_postgres** ansible galaxy collection
+2 ## Create a Project to download locally **edb\_devops.edb\_postgres** ansible galaxy collection
 
 **Create** a **Project** that connects to the **edb-ansible GitHub Repository**
 
@@ -89,7 +83,7 @@ https://github.com/EnterpriseDB/edb-ansible.git
 
 **Click** the **Green SAVE** **Button**
 
-## Download locally the **edb\_devops.edb\_postgres** ansible galaxy collection
+3 ## Download locally the **edb\_devops.edb\_postgres** ansible galaxy collection
 
 **Click** **Projects** on the left hand navigation
 
@@ -99,7 +93,7 @@ https://github.com/EnterpriseDB/edb-ansible.git
 
 A folder located in: **/var/lib/awx/projects** with the '__**project_name' prefixes will be created
 
-## Create Credentials
+4 ## Create Credentials
 
 ### Create Cloud Credentials
 
@@ -203,7 +197,7 @@ Under **Resources** -> **Inventories**
 
 Verify that the List of Hosts matches the Host List content of the file in the GitHub Repo utilized for the Hosts File
 
-## Projects
+5 ## Projects
 
 ### Create the project to Download locally the **edb\_devops.edb\_postgres** ansible galaxy collection
 
@@ -331,7 +325,7 @@ Under **Resources** -> **Projects**
 
 **Click** the **Green SAVE** **Button**
 
-## Templates
+6 ## Templates
 
 ### Create Template to deploy the Cluster
 
