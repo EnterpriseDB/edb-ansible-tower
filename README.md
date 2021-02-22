@@ -1,6 +1,6 @@
 # Ansible Tower Configuration for integration with &quot;edb-ansible&quot;
 
-1 ## Create a Project to retrieve hosts inventory file
+1. ## Create a Project to retrieve hosts inventory file
 
 **Create** a **Project** that connects to the a github repository that contains your host file in a format such as:
 
