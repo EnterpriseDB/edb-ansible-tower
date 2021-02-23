@@ -83,17 +83,8 @@ https://github.com/EnterpriseDB/edb-ansible-tower
 
 **Click** the **Green SAVE** **Button**
 
-## 3. Download locally the **edb\_devops.edb\_postgres** ansible galaxy collection
 
-**Click** **Projects** on the left hand navigation
-
-**Locate** the **EDB-ANSIBLE** project
-
-**Click** the **EDB-ANSIBLE** project **Refresh Button**
-
-A folder located in: **/var/lib/awx/projects** with the '__**project_name' prefixes will be created
-
-## 4. Create Credentials
+## 3. Create Credentials
 
 ### Create Cloud Credentials
 
@@ -197,7 +188,17 @@ Under **Resources** -> **Inventories**
 
 Verify that the List of Hosts matches the Host List content of the file in the GitHub Repo utilized for the Hosts File
 
-## 5. Projects
+## 4. Create Local Manual Projects
+
+### Download locally the **edb\_devops.edb\_postgres** ansible galaxy collection
+
+**Click** **Projects** on the left hand navigation
+
+**Locate** the **EDB-ANSIBLE** project
+
+**Click** the **EDB-ANSIBLE** project **Refresh Button**
+
+A folder located in: **/var/lib/awx/projects** with the '__**project_name' prefixes will be created
 
 ### Create the project to Download locally the **edb\_devops.edb\_postgres** ansible galaxy collection
 
@@ -325,7 +326,7 @@ Under **Resources** -> **Projects**
 
 **Click** the **Green SAVE** **Button**
 
-## 6. Templates
+## 5. Templates
 
 ### Create Template to deploy the Cluster
 
