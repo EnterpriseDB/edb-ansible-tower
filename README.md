@@ -100,7 +100,7 @@ Under **Resources** -> **Credentials**
 
 **Select** the matching Organization from the **ORGANIZATION** **Dropdown**
 
-**Select** the matching Cloud from the **Credential** **Type** **Dropdown**
+**Select** the matching Cloud from the **CREDENTIAL** **Dropdown**
 
 **The next steps will vary depending on the Cloud Vendor you are utilizing**
 
@@ -118,7 +118,7 @@ Under **Resources** -> **Credentials**
 
 **Select** the matching Organization from the **ORGANIZATION** **Dropdown**
 
-**Select** **Machine** from the **Credential** **Type** **Dropdown**
+**Select** **Machine** from the **CREDENTIAL** **Dropdown**
 
 **Enter** the **username** for the credential, for example: &quot;centos&quot;, &quot;root&quot; or &quot;ec2-user&quot;
 
