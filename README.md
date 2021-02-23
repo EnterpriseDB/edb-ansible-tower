@@ -122,6 +122,8 @@ Under **Resources** -> **Credentials**
 
 **Click** the **Green SAVE** **Button**
 
+## 3. Create Inventories
+
 ### Create the Cloud Inventory
 
 Under **Resources** -> **Inventories**
@@ -190,7 +192,7 @@ Under **Resources** -> **Inventories**
 
 Verify that the List of Hosts matches the Host List content of the file in the GitHub Repo utilized for the Hosts File
 
-## 3. Create Local Manual Projects
+## 4. Create Local Manual Projects
 
 ### Create the project to Download locally the **edb\_devops.edb\_postgres** ansible galaxy collection
 
@@ -328,7 +330,7 @@ Under **Resources** -> **Projects**
 
 **Click** the **Green SAVE** **Button**
 
-## 4. Templates
+## 5. Templates
 
 ### Create Template to deploy the Cluster
 
