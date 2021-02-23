@@ -200,7 +200,7 @@ Under **Resources** -> **Inventories**
 
 **Scroll down**
 
-**Click** the **Start Sync Button** from the **SOURCES** Grid under **ACTIONS*
+**Click** the **Start Sync Button** from the **SOURCES** Grid under **ACTIONS**
 
 **Click** the **HOST Button** on the top right next to the **SOURCE Button**
 
