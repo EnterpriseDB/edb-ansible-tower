@@ -96,7 +96,7 @@ Under **Resources** -> **Credentials**
 
 **Click** the **Green Plus Sign** on the right hand side of the browser
 
-**Enter** the **name** of the credential, for example: &quot;GCloud&quot;, &quot;AWS&quot; or &quot;Azure&quot; varies by your Linux Distribution
+**Enter** the **name** of the credential, for example: &quot;GCloud&quot;, &quot;AWS&quot; or &quot;Azure&quot;
 
 **Select** the matching Organization from the **ORGANIZATION** **Dropdown**
 
@@ -120,7 +120,7 @@ Under **Resources** -> **Credentials**
 
 **Select** **Machine** from the **CREDENTIAL** **Dropdown**
 
-**Enter** the **username** for the credential, for example: &quot;centos&quot;, &quot;root&quot; or &quot;ec2-user&quot;
+**Enter** the **username** for the credential, for example: &quot;centos&quot;, &quot;root&quot; or &quot;ec2-user&quot; varies by your Linux Distribution
 
 **Add** the **SSH PRIVATE KEY** for the credential by either **clicking** on the **Refresh Button** on the right hand side or **dragging and dropping** the **SSH PRIVATE KEY file** or its contents onto the **TextBox**
 
