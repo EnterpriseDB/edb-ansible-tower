@@ -92,7 +92,7 @@ https://github.com/EnterpriseDB/edb-ansible-tower
 
 Under **Resources** -> **Credentials**
 
-**Click 'Cloud' and 'Cloud Private' Credentials**
+**Click Credentials**
 
 **Click** the **Green Plus Sign** on the right hand side of the browser
 
