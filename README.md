@@ -96,7 +96,7 @@ Under **Resources** -> **Credentials**
 
 **Click** the **Green Plus Sign** on the right hand side of the browser
 
-**Enter** the **name** of the credential, for example: &quot;GCloud&quot;, &quot;AWS&quot; or &quot;Azure&quot;
+**Enter** the **name** of the credential, for example: &quot;GCloud&quot;, &quot;AWS&quot; or &quot;Azure&quot; varies by your Linux Distribution
 
 **Select** the matching Organization from the **ORGANIZATION** **Dropdown**
 
