@@ -100,7 +100,7 @@ Under **Resources** -> **Credentials**
 
 **Select** the matching Cloud from the **Credential** **Type** **Dropdown**
 
-**The next steps will vary depending on the Cloud Vendor you are utilizing** _
+**The next steps will vary depending on the Cloud Vendor you are utilizing**
 
 **Click** the **Green SAVE** **Button**
 
