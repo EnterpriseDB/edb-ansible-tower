@@ -210,7 +210,7 @@ Verify that the List of Hosts matches the Host List content of the file  in the 
 
 ## 4. Create Local Manual Projects
 
-### Create the project to Download locally the **edb\_devops.edb\_postgres** ansible galaxy collection
+### Download locally the **edb\_devops.edb\_postgres** ansible galaxy collection
 
 **Within Ansible Tower**
 
@@ -218,35 +218,23 @@ Under **Resources** -> **Projects**
 
 **Click Projects**
 
-**Click** the **Green Plus Sign** on the right hand side of the browser
+**Locate** the project **EDB–ANSIBLE-GALAXY"
 
-**Enter** the **name** , for example: &quot;EDB – Ansible - Galaxy&quot;
+**Click** the **Get the latest SCM Revision Button** under the **Name** **Column**
 
-**Select** **Git** from the **SCM TYPE** **Dropdown**
-
-**Type** in the **SCM URL** **TextBox**:
-
-https://github.com/EnterpriseDB/edb-ansible.git
-
-**Type** in the **SCM URL** **TextBox**:
-
-https://github.com/EnterpriseDB/edb-ansible.git
-
-**Check** **Clean** **CheckBox** from the **SCM UPDATE OPTIONS**
-
-**Click** the **Green SAVE** **Button**
-
-**Click** the **Refresh Button** from the **PROJECTS** Grid
+**Wait** for the **Green Dot** to be solid next to the **EDB-ANSIBLE-GALAXY** **Project**
 
 A folder located in: **/var/lib/awx/projects** with the '__**project_name' prefixes will be created
 
-### Download locally the **edb\_devops.edb\_postgres** ansible galaxy collection
+### Download locally the **EDB-CLOUD-INVENTORY**
 
 **Click** **Projects** on the left hand navigation
 
-**Locate** the **EDB-ANSIBLE** project
+**Locate** the **EDB-CLOUD-INVENTORY** project
 
-**Click** the **EDB-ANSIBLE** project **Refresh Button**
+**Click** the **Get the latest SCM Revision Button** under the **Name** **Column**
+
+**Wait** for the **Green Dot** to be solid next to the **EDB-CLOUD-INVENTORY** **Project**
 
 A folder located in: **/var/lib/awx/projects** with the '__**project_name' prefixes will be created
 
@@ -265,66 +253,11 @@ mkdir edb-ansible
 
 cd edb-ansible
 
-```
+cp -r ../\_**xx__edb_ansible_galaxy**/collections/ .
 
-**Locate and notice a directory that contains the name of the project created in the steps above**
+cp -r ../\_**xx__edb_ansible_galaxy**/plugins/ .
 
-**Back** in the **Terminal Window**
-
-**playbook.yml** should look as shown below:
-
-Playbook content should look like as shown below:
-
-```
----
-- hosts: all
-  name: Postgres deployment playbook for reference architecture EDB-RA-2
-  become: yes
-  gather_facts: yes
-
-  collections:
-    - edb_devops.edb_postgres
-  pre_tasks:
-    - name: Initialize the user defined variables
-      set_fact:
-        use_hostname: yes
-        disable_logging: false
-        efm_version: 4.1
-  roles:
-    - role: setup_repo
-      when: "'setup_repo' in lookup('edb_devops.edb_postgres.supported_roles', wantlist=True)"
-    - role: install_dbserver
-      when: "'install_dbserver' in lookup('edb_devops.edb_postgres.supported_roles', wantlist=True)"
-    - role: init_dbserver
-      when: "'init_dbserver' in lookup('edb_devops.edb_postgres.supported_roles', wantlist=True)"
-    - role: setup_replication
-      when: "'setup_replication' in lookup('edb_devops.edb_postgres.supported_roles', wantlist=True)"
-    - role: manage_dbserver
-      when: "'init_dbserver' in lookup('edb_devops.edb_postgres.supported_roles', wantlist=True)"
-    - role: setup_efm
-      when: "'setup_efm' in lookup('edb_devops.edb_postgres.supported_roles', wantlist=True)"
-    - role: setup_pemserver
-      when: "'setup_pemserver' in lookup('edb_devops.edb_postgres.supported_roles', wantlist=True)"
-    - role: setup_pemagent
-      when: "'setup_pemagent' in lookup('edb_devops.edb_postgres.supported_roles', wantlist=True)"
-    - role: autotuning
-      when: "'autotuning' in lookup('edb_devops.edb_postgres.supported_roles', wantlist=True)"
-    - role: pot_setup
-      when: group_names | select('search','barmanserver') | list | count < 1
-```
-
-**Type**:
-
-```
-mkdir edb-ansible
-
-cd edb-ansible
-
-cp -r ../\_**directory\_name**/collections/ .
-
-cp -r ../\_**directory\_name**/plugins/ .
-
-cp -r ../\_**directory\_name**/playbook.yml .
+cp -r ../\_**xx__edb_ansible_galaxy**/playbook.yml .
 
 ```
 
@@ -342,7 +275,7 @@ Under **Resources** -> **Projects**
 
 **Select** **Manual** from the **SCM TYPE** **Dropdown**
 
-**Select** **Manual** from the **PLAYBOOK DIRECTORY** **Dropdown**
+**Select** **edb-ansible** from the **PLAYBOOK DIRECTORY** **Dropdown**
 
 **Click** the **Green SAVE** **Button**
 
@@ -354,19 +287,21 @@ Under **Resources** -> **Projects**
 
 Under **Resources** -> **Templates**
 
-**Click Templates**
-
 **Click** the **Green Plus Sign** on the right hand side of the browser
 
-**Enter** the **name** , for example: &quot;EDB – Ansible - Template&quot;
+**Click Job Template**
+
+**Enter** the **name** , for example: &quot;EDB–ANSIBLE-TEMPLATE&quot;
 
 **Select** **Run** from the **JOB TYPE** **Dropdown**
 
-**Select** **Hosts** from the **INVENTORY Dropdown**
+**Select** **HOSTS** from the **INVENTORY Dropdown**
 
 **Select** **EDB-ANSIBLE** from the **PROJECT Dropdown**
 
 **Select** **playbook.yml** from the **PLAYBOOK** **Dropdown**
+
+**Keep in mind the 'machine' and 'Cloud' credentials filter when selecting the credentials**
 
 **Select** **'your cloud credentials'** from the **CREDENTIALS CheckBox**
 
