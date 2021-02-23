@@ -192,16 +192,6 @@ Verify that the List of Hosts matches the Host List content of the file in the G
 
 ## 3. Create Local Manual Projects
 
-### Download locally the **edb\_devops.edb\_postgres** ansible galaxy collection
-
-**Click** **Projects** on the left hand navigation
-
-**Locate** the **EDB-ANSIBLE** project
-
-**Click** the **EDB-ANSIBLE** project **Refresh Button**
-
-A folder located in: **/var/lib/awx/projects** with the '__**project_name' prefixes will be created
-
 ### Create the project to Download locally the **edb\_devops.edb\_postgres** ansible galaxy collection
 
 **Within Ansible Tower**
@@ -229,6 +219,16 @@ https://github.com/EnterpriseDB/edb-ansible.git
 **Click** the **Green SAVE** **Button**
 
 **Click** the **Refresh Button** from the **PROJECTS** Grid
+
+A folder located in: **/var/lib/awx/projects** with the '__**project_name' prefixes will be created
+
+### Download locally the **edb\_devops.edb\_postgres** ansible galaxy collection
+
+**Click** **Projects** on the left hand navigation
+
+**Locate** the **EDB-ANSIBLE** project
+
+**Click** the **EDB-ANSIBLE** project **Refresh Button**
 
 A folder located in: **/var/lib/awx/projects** with the '__**project_name' prefixes will be created
 
