@@ -210,13 +210,13 @@ Verify that the List of Hosts matches the Host List content of the file  in the 
 
 ## 4. Create Local Manual Projects
 
-### Download locally the **edb\_devops.edb\_postgres** ansible galaxy collection
+### Download locally the **edb\_devops.edb\_postgres** Ansible Galaxy Collection
 
 **Within Ansible Tower**
 
-Under **Resources** -> **Projects**
+Under **Resources** -> **Projects** on the left hand navigation
 
-**Click Projects**
+**Click Projects Link** on the left hand side of the browser
 
 **Locate** the project **EDB–ANSIBLE-GALAXY"
 
@@ -224,9 +224,13 @@ Under **Resources** -> **Projects**
 
 **Wait** for the **Green Dot** to be solid next to the **EDB-ANSIBLE-GALAXY** **Project**
 
-A folder located in: **/var/lib/awx/projects** with the '__**project_name' prefixes will be created
+A directory located in: **/var/lib/awx/projects** with the '_xx__project_name' will be created
 
 ### Download locally the **EDB-CLOUD-INVENTORY**
+
+**Within Ansible Tower**
+
+Under **Resources** -> **Projects** on the left hand navigation
 
 **Click** **Projects** on the left hand navigation
 
@@ -236,7 +240,7 @@ A folder located in: **/var/lib/awx/projects** with the '__**project_name' prefi
 
 **Wait** for the **Green Dot** to be solid next to the **EDB-CLOUD-INVENTORY** **Project**
 
-A folder located in: **/var/lib/awx/projects** with the '__**project_name' prefixes will be created
+A directory located in: **/var/lib/awx/projects** with the '_xx__project_name' will be created
 
 ### Prepare a local Ansible Tower Ansible Project
 
@@ -261,7 +265,7 @@ cp -r ../\_**xx__edb_ansible_galaxy**/playbook.yml .
 
 ```
 
-### Create the Ansible Tower **edb-ansible** Ansible Project
+### Create the Ansible Tower **edb-ansible** Project
 
 **Within Ansible Tower**
 
