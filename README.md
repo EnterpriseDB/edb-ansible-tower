@@ -132,9 +132,11 @@ Under **Resources** -> **Credentials**
 
 Under **Resources** -> **Inventories**
 
-**Click Projects**
+**Click** the **Green Plus Sign** on the right hand side of the browser
 
-**Enter** the **name** , for example: &quot;EDB - GCloud&quot;, &quot;EDB - AWS&quot; or &quot;EDB - Azure&quot;
+**Click Inventories**
+
+**Enter** the **name** , for example: &quot;GCloud - Inventory&quot;, &quot;AWS - Inventory&quot; or &quot;Azure - Inventory&quot;
 
 **Click** the **Green SAVE** **Button**
 
@@ -142,19 +144,23 @@ Under **Resources** -> **Inventories**
 
 **Click** the **Green Plus Sign** on the right hand side of the browser
 
-**Enter** the **name** , for example: &quot;EDB – Gcloud - VMs&quot;, &quot;EDB – AWS - VMs&quot; or &quot;EDB – Azure - VMs&quot;
+**Enter** the **name** , for example: &quot;Gcloud - VMs&quot;, &quot;AWS - VMs&quot; or &quot;Azure - VMs&quot;
 
 **Select** the **CLOUD SOURCE** from the **SOURCE** **Dropdown**
 
 **Click** the **Green SAVE** **Button**
 
-**Locate** the **Cloud Inventory** recently created in the **SOURCES Grid**
+**Scroll down**
 
-**Click** the **EDB-ANSIBLE** project **Refresh Button**
+**Locate** the **cloud - VMs** recently created in the **SOURCES Grid**
+
+**Click** the **cloud - VMs** project **Start Sync Button** on the right hand side under **ACTIONS**
 
 **Click** the **HOST Button** on the top right next to the **SOURCE Button**
 
-Verify that the List of Hosts matches the Cloud Virtual Machines in which EPAS/Postgres playbook will be executed upon
+**Wait** for the **Green Cloud** to be solid
+
+Verify that the List of Hosts matches the Cloud Virtual Machines in which EPAS/Postgres playbook will be executed upon by **Clicking** the **HOST Button** on the top of the grid
 
 ### Create the Hosts Inventory
 
@@ -166,7 +172,9 @@ The **HOSTS** file should match the format listed in **the Inventory file conten
 
 Under **Resources** -> **Inventories**
 
-**Click Inventories**
+**Click** the **Green Plus Sign** on the right hand side of the browser
+
+**Click Inventory**
 
 **Enter** the **name** , for example: &quot;HOSTS&quot;
 
@@ -180,7 +188,7 @@ Under **Resources** -> **Inventories**
 
 **Select** the **Sourced from a Project** from the **SOURCE** **Dropdown**
 
-**Select** the **Project** from the **PROJECT Dropdown**
+**Select** the **EDB-CLOUD-Inventory** from the **PROJECT Dropdown**
 
 **Select** the **Inventory File**, most likely a file named: **'hosts'** from the **INVENTORY FILE** **Dropdown**
 
@@ -190,11 +198,15 @@ Under **Resources** -> **Inventories**
 
 **Click** the **Green SAVE** **Button**
 
-**Click** the **Refresh Button** from the **SOURCES** Grid
+**Scroll down**
+
+**Click** the **Start Sync Button** from the **SOURCES** Grid under **ACTIONS*
 
 **Click** the **HOST Button** on the top right next to the **SOURCE Button**
 
-Verify that the List of Hosts matches the Host List content of the file in the GitHub Repo utilized for the Hosts File
+**Wait** for the **Green Cloud** to be solid
+
+Verify that the List of Hosts matches the Host List content of the file  in the GitHub Repo utilized for the Hosts File by **Clicking** the **HOST Button** on the top of the grid
 
 ## 4. Create Local Manual Projects
 
