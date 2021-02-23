@@ -98,6 +98,8 @@ Under **Resources** -> **Credentials**
 
 **Enter** the **name** of the credential, for example: &quot;GCloud&quot;, &quot;AWS&quot; or &quot;Azure&quot;
 
+**Select** the matching Organization from the **ORGANIZATION** **Dropdown**
+
 **Select** the matching Cloud from the **Credential** **Type** **Dropdown**
 
 **The next steps will vary depending on the Cloud Vendor you are utilizing**
@@ -113,6 +115,8 @@ Under **Resources** -> **Credentials**
 **Click** the **Green Plus Sign** on the right hand side of the browser
 
 **Enter** the **name** of the credential, for example: &quot;GCloud – Private Key&quot;, &quot;AWS – Private Key&quot; or &quot;Azure – Private Key&quot;
+
+**Select** the matching Organization from the **ORGANIZATION** **Dropdown**
 
 **Select** **Machine** from the **Credential** **Type** **Dropdown**
 
