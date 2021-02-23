@@ -73,7 +73,7 @@ collections:
 
 **Click** the **Green Plus Sign** on the right hand side of the browser
 
-**Enter** the **name** of the project, for example: &quot;EDB-ANSIBLE&quot;
+**Enter** the **name** of the project, for example: &quot;EDB-ANSIBLE-GALAXY&quot;
 
 **Select** **Git** from the **SCM TYPE** **Dropdown**
 
